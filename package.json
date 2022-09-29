@@ -1,0 +1,25 @@
+{
+  "name": "bookshelf-fazri",
+  "version": "1.0.0",
+  "description": "bookshelf",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js"
+  },
+  "keywords": [
+    "bookshelf",
+    "dicoding",
+    "fazri"
+  ],
+  "author": "Fazri",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^3.1.23",
+    "nanoid-dictionary": "^4.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "nodemon": "^2.0.12"
+  }
+}
